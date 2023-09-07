@@ -1,0 +1,263 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.container {
+    max-width: 1366px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.container-flex {
+    display: flex;
+}
+
+header .container,
+section .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header {
+    padding: 16px 0;
+    color: #f7f3f3;
+    background-color: rgb(48, 108, 177);
+    border-bottom: 3px solid rgb(31, 30, 30);
+}
+
+header nav li {
+    display: inline;
+    padding: 15px;
+}
+
+header nav li a {
+    list-style: none;
+    text-decoration: none;
+    color: #f7f3f3;
+    text-transform: uppercase;
+    font-size: 22px;
+}
+
+header nav li a:hover {
+    color: #cecece;
+    border-bottom:  2.5px solid #f7f3f3;
+}
+
+header h1 {
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+section {
+    padding: 50px 0;
+}
+
+section#sobre {
+    border-bottom: 4px solid rgb(48, 108, 177);
+}
+
+section#sobre p {
+    font-size: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    border: solid rgb(48, 108, 177);
+}
+
+
+section#sobre img {
+    position: static;
+    margin: 0 auto;
+    padding: 30px;
+    height: 450px;
+    width: 450px;
+}
+
+.box {
+    display: block;
+    padding: 16px;
+    margin: 0 auto;
+}
+
+.box h2 {
+    position: static;
+    background-color: rgb(26, 75, 131);
+    color: #f7f3f3;
+    width: 200px;
+    text-indent: 15px;
+    margin-top: 75px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+.produtos {
+    width: 100%;
+    padding: 16px;
+}
+
+.produtos {
+    flex-wrap: wrap;
+}
+
+section#conteudo h2 {
+    margin-left: 550px;
+    margin-bottom: 50px;
+    color: #f7f3f3;
+    background-color: rgb(26, 75, 131);
+    width: 250px;
+    text-indent: 12px;
+}
+
+.produtos li {
+    list-style: none;
+    max-width: 20%;
+    margin-bottom: 24px;
+    padding: 15px;
+    margin-left: 60px;
+    border: solid;
+    border-radius: 8px;
+    background-color: #f8f5f5;
+}
+
+.produtos li p {
+    max-width: 100%;
+    margin-bottom: 8px;
+}
+
+.produtos li img {
+    max-width: 100%;
+    width: 100%;
+    border: solid rgb(26, 75, 131);
+    border-radius: 8px;
+}
+
+.produtos li h3 {
+    margin: 16px 0;
+}
+
+button {
+    display: block;
+    border-radius: 8px;
+    margin-top: 15px;
+    width: 100%;
+    height: 40px;
+    font-weight: bold;
+    font-size: 15px;
+    text-transform: uppercase;
+    background-color: rgb(48, 108, 177);
+    color: #f7f3f3;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(112, 150, 194);
+}
+
+footer {
+    padding: 16px 0;
+    color: #f7f3f3;
+    background-color: rgb(48, 108, 177);
+}
+
+
+@media screen and (min-width: 641px) and (max-width: 1023px) {
+    .container {
+        max-width: 80%;
+        flex-wrap: wrap;
+    }
+
+    section#sobre img {
+        padding: 0px;
+        width: 90%;
+        height: 500px;
+        margin: 0 auto;
+        border: solid rgb(26, 75, 131);
+        border-radius: 8px;
+    }
+
+    section#conteudo h2 {
+        margin-left: 270px;
+        margin-bottom: 50px;
+        color: #f7f3f3;
+        background-color: rgb(26, 75, 131);
+        width: 250px;
+        text-indent: 12px;
+    }
+
+    .produtos li {
+        list-style: none;
+        max-width: 35%;
+        margin-bottom: 24px;
+        padding: 15px;
+        margin-left: 60px;
+        border: solid;
+        border-radius: 8px;
+        background-color: #f8f5f5;
+    }
+
+    footer {
+        padding: 16px 0;
+        color: #f7f3f3;
+        background-color: rgb(48, 108, 177);
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .produtos {
+        display: block;
+    }
+
+    .container {
+        max-width: 100%;
+    }
+    
+    section .container,
+    header .container {
+        display: block;
+        align-items: center;
+        justify-content: center;
+    }
+
+    header h1 {
+        margin-bottom: 15px;
+    }
+    
+    .produtos li {
+        list-style: none;
+        max-width: 65%;
+        margin-bottom: 90px;
+        padding: 15px;
+        margin-left: 60px;
+        border: solid;
+        border-radius: 8px;
+        background-color: #f8f5f5;
+    }
+
+    section#conteudo h2 {
+        margin-left: 65px;
+        margin-bottom: 50px;
+        color: #f7f3f3;
+        background-color: rgb(26, 75, 131);
+        width: 250px;
+        text-indent: 12px;
+    }
+
+    section#sobre img {
+        padding: 0px;
+        width: 90%;
+        height: 480px;
+        margin-left: 20px;
+        border: solid rgb(26, 75, 131);
+        border-radius: 8px;
+    }
+
+    footer {
+        font-size: 15px;
+    }
+}
