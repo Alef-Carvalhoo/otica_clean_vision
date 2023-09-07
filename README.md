@@ -7,10 +7,13 @@
 <h1>SCREENSHOTS:</h1>
 
 <h2>DESKTOP</h2>
-![Opera Instantâneo_2023-09-06_215218_127 0 0 1](https://github.com/Alef-Carvalhoo/otica_clean_vision/assets/127264723/b42d066e-1a45-4fbd-9946-20938d42d0d9)
+![Opera Instantâneo_2023-09-06_215218_127 0 0 1](https://github.com/Alef-Carvalhoo/otica_clean_vision/assets/127264723/2fd77760-354c-4718-869d-3f3e1f70abb1)
+
 
 <h2>TABLET OU IPAD</h2>
-![Opera Instantâneo_2023-09-06_215844_127 0 0 1](https://github.com/Alef-Carvalhoo/otica_clean_vision/assets/127264723/7a3433a2-d8a3-438e-b572-e3663fc08f61) ![Opera Instantâneo_2023-09-06_220029_127 0 0 1](https://github.com/Alef-Carvalhoo/otica_clean_vision/assets/127264723/99d7d977-5f23-487b-a827-d87d8f4ed444)
+![Opera Instantâneo_2023-09-06_215844_127 0 0 1](https://github.com/Alef-Carvalhoo/otica_clean_vision/assets/127264723/12b76964-829b-46f9-b337-0e249e458b1e) ![Opera Instantâneo_2023-09-06_220029_127 0 0 1](https://github.com/Alef-Carvalhoo/otica_clean_vision/assets/127264723/32edc807-3a2d-468c-96e1-59cc159ca133)
+
+
 
 <h2>MOBILE</h2>
 
